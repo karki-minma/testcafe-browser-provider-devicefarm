@@ -1,0 +1,52 @@
+{
+  "name": "testcafe-browser-provider-devicefarm",
+  "version": "1.0.0",
+  "description": "devicefarm TestCafe browser provider plugin.",
+  "repository": "https://github.com/sushantkarki/testcafe-browser-provider-devicefarm",
+  "homepage": "https://github.com/sushantkarki/testcafe-browser-provider-devicefarm",
+  "author": {
+    "name": "Sushant Karki",
+    "email": "karki@curama.jp"
+  },
+  "main": "lib/index",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "gulp test",
+    "publish-please": "publish-please",
+    "prepublish": "publish-please guard"
+  },
+  "keywords": [
+    "testcafe",
+    "browser provider",
+    "plugin"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/runtime-corejs2": "^7.0.0",
+    "aws-sdk": "^2.654.0",
+    "selenium-webdriver": "^4.0.0-alpha.7",
+    "webdriverio": "^6.0.13"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-json-strings": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-syntax-import-meta": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.0.0",
+    "@babel/preset-env": "^7.9.0",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "babel-preset-es2015-loose": "^8.0.0",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-mocha": "^7.0.2",
+    "node-version": "^2.0.0",
+    "publish-please": "^5.5.1"
+  }
+}
